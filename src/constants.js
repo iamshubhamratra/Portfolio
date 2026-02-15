@@ -230,7 +230,7 @@ export const projects = [
     title: "Task Mate",
     description:
       "TaskMate is a secure team collaboration platform built using React, Node.js, Express, and MongoDB, featuring OTP-based authentication, admin-controlled workflows, and planned real-time chat and video communication.",
-    image: task,
+    image: taskMate,
     tags: [ "Node.js", "MongoDB", "Express","React JS", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/iamshubhamratra/Taskmate-Backend-Server.git",
     webapp: "https://taskmate-frontend-server.vercel.app/",
