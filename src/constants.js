@@ -56,17 +56,15 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import yourOsManager from './assets/work_logo/YourOsManager.png';
+import taskMate from './assets/work_logo/taskMate.png'
 
 
 export const SkillsInfo = [
   // {
   //   title: 'Frontend',
   //   skills: [
-  //     // { name: 'HTML', logo: htmlLogo },
-  //     // { name: 'CSS', logo: cssLogo },
   //     // // { name: 'SASS', logo: sassLogo },
   //     // { name: 'JavaScript', logo: javascriptLogo },
-  //     // { name: 'React JS', logo: reactjsLogo },
   //     // // { name: 'Angular', logo: angularLogo },
   //     // // { name: 'Redux', logo: reduxLogo },
   //     // // { name: 'Next JS', logo: nextjsLogo }, 
@@ -79,18 +77,22 @@ export const SkillsInfo = [
   {
     title: 'Skills',
     skills: [
-      { name: 'C++', logo: cppLogo },
       { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'Python', logo: pythonLogo },
+      { name: 'C++', logo: cppLogo },
       { name: 'TypeScript', logo: typescriptLogo },
+      // { name: 'HTML', logo: htmlLogo },
+      // { name: 'CSS', logo: cssLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'React JS', logo: reactjsLogo },
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
       // { name: 'Springboot', logo: springbootLogo },
       // { name: 'Firebase', logo: firebaseLogo },
-      // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   // {
@@ -98,7 +100,6 @@ export const SkillsInfo = [
   //   skills: [
   //     // { name: 'C', logo: cLogo },
   //     // { name: 'Java', logo: javaLogo },
-  //     // { name: 'Python', logo: pythonLogo },
   //     // { name: 'C-Sharp', logo: csharpLogo },
   //     { name: 'JavaScript', logo: javascriptLogo },
   //   ],
@@ -118,7 +119,7 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
+export const experiences = [
   //   {
   //     id: 0,
   //     img: webverseLogo,
@@ -172,76 +173,76 @@ export const SkillsInfo = [
   //       "Material UI",
   //     ],
   //   },
-  ];
-   
-  export const education = [
-    {
-      id: 0,
-      img: ipuLogo,
-      school: "Dr. Akhilesh Das Gupta Institute of Professional Studies, Delhi",
-      date: "November 2022 - Present",
-      // grade: "7.81 CGPA",
-      desc: "I’m currently pursuing a B.Tech in Information Technology from Dr. Akhilesh Das Gupta Institute of Professional Studies, affiliated with Guru Gobind Singh Indraprastha University. I’m developing a strong foundation in coding, programming, databases, and problem-solving, with a keen interest in building efficient and scalable software solutions.",
-      degree: "Bachelor of Technology - B.Tech",
-    },
-    // {
-    //   id: 1,
-    //   img: bsaLogo,
-    //   school: "BSA College, Mathura",
-    //   date: "Sept 2018 - Aug 2021",
-    //   grade: "73.2%",
-    //   desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-    //   degree: "Bachelor of Science - BSC (Computer Science)",
-    // },
-    {
-      id: 2,
-      img: cbseLogo,
-      school: "Sarvodaya Vidyalaya (GBSSS) Dr. Mukherjee nagar, Delhi",
-      date: "2021 - 2022",
-      // grade: "78%",
-      desc: "I completed my class 12 education from Sarvodaya Vidyalaya (GBSSS) Dr. Mukherjee nagar, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: cbseLogo,
-      school: "Oscar Public School, Delhi",
-      date: "2019 - 2020",
-      // grade: "87.5%",
-      desc: "I completed my class 10 education from Oscar Public School, under the CBSE board.",
-      degree: "CBSE(X)",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "Your OS Manager",
-      description:
-        "A modern, secure, and production-ready web-based file and folder management system built with the MERN stack (MongoDB, Express.js, React-inspired frontend, Node.js). This application allows authenticated users to create, organize, and manage folders and files through an intuitive and responsive web interface. Designed for scalability, security, and ease of use.",
-      image: yourOsManager,
-      tags: [ "Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript", "Bootstrap 5"],
-      github: "https://github.com/iamshubhamratra/YourOsManager.git",
-      webapp: "https://yourosmanager.onrender.com/",
-    },
-    // {
-    //   id: 1,
-    //   title: "CS Prep",
-    //   description:
-    //     "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    //   image: csprepLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    //   github: "https://github.com/codingmastr/CSPrep",
-    //   webapp: "https://csprep.netlify.app/",
-    // },
-    // {
-    //   id: 2,
-    //   title: "Movie Recommendation App",
-    //   description:
-    //     "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    //   image: movierecLogo,
-    //   tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    //   github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    //   webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    // },
-  ];  
+];
+
+export const education = [
+  {
+    id: 0,
+    img: ipuLogo,
+    school: "Dr. Akhilesh Das Gupta Institute of Professional Studies, Delhi",
+    date: "November 2022 - Present",
+    // grade: "7.81 CGPA",
+    desc: "I’m currently pursuing a B.Tech in Information Technology from Dr. Akhilesh Das Gupta Institute of Professional Studies, affiliated with Guru Gobind Singh Indraprastha University. I’m developing a strong foundation in coding, programming, databases, and problem-solving, with a keen interest in building efficient and scalable software solutions.",
+    degree: "Bachelor of Technology - B.Tech",
+  },
+  // {
+  //   id: 1,
+  //   img: bsaLogo,
+  //   school: "BSA College, Mathura",
+  //   date: "Sept 2018 - Aug 2021",
+  //   grade: "73.2%",
+  //   desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+  //   degree: "Bachelor of Science - BSC (Computer Science)",
+  // },
+  {
+    id: 2,
+    img: cbseLogo,
+    school: "Sarvodaya Vidyalaya (GBSSS) Dr. Mukherjee nagar, Delhi",
+    date: "2021 - 2022",
+    // grade: "78%",
+    desc: "I completed my class 12 education from Sarvodaya Vidyalaya (GBSSS) Dr. Mukherjee nagar, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+    degree: "CBSE(XII) - PCM with Computer Science",
+  },
+  {
+    id: 3,
+    img: cbseLogo,
+    school: "Oscar Public School, Delhi",
+    date: "2019 - 2020",
+    // grade: "87.5%",
+    desc: "I completed my class 10 education from Oscar Public School, under the CBSE board.",
+    degree: "CBSE(X)",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Your OS Manager",
+    description:
+      "A modern, secure, and production-ready web-based file and folder management system built with the MERN stack (MongoDB, Express.js, React-inspired frontend, Node.js). This application allows authenticated users to create, organize, and manage folders and files through an intuitive and responsive web interface. Designed for scalability, security, and ease of use.",
+    image: yourOsManager,
+    tags: ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript", "Bootstrap 5"],
+    github: "https://github.com/iamshubhamratra/YourOsManager.git",
+    webapp: "https://yourosmanager.onrender.com/",
+  },
+  {
+    id: 1,
+    title: "Task Mate",
+    description:
+      "TaskMate is a secure team collaboration platform built using React, Node.js, Express, and MongoDB, featuring OTP-based authentication, admin-controlled workflows, and planned real-time chat and video communication.",
+    image: task,
+    tags: [ "Node.js", "MongoDB", "Express","React JS", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/iamshubhamratra/Taskmate-Backend-Server.git",
+    webapp: "https://taskmate-frontend-server.vercel.app/",
+  },
+  // {
+  //   id: 2,
+  //   title: "Movie Recommendation App",
+  //   description:
+  //     "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+  //   image: movierecLogo,
+  //   tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/codingmastr/Movie-Recommendation-App",
+  //   webapp: "https://movie-recommendation-app-jet.vercel.app/",
+  // },
+];  

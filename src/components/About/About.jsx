@@ -25,9 +25,9 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Backend Developer',
+                'Full Stack Developer',
                 // 'App Developer',
-                // 'Student',
+                'Student',
                 'Coder',
               ]}
               speed={100}
@@ -41,14 +41,14 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a Final-year B.Tech (IT) student with a background in backend development. Skilled in building and 
+            I am a Final-year B.Tech (IT) student with a background in Full Stack development. Skilled in building and 
             optimizing server-side applications, with a strong foundation in programming, databases, and
             problem-solving. Actively seeking opportunities to learn, grow, and contribute while developing into
             a well-rounded software professional.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1iTTP8IA2SW4dQLsMsFpCxzWL4pS7uZXS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GYK1CE1l-aJQa6CAXx7xc-vicX8lN741/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
