@@ -66,9 +66,10 @@ const Work = () => {
 
       {/* Modal Container */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-            <div className="flex justify-end p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4" onClick={handleCloseModal}>
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl max-h-[90vh] flex flex-col relative" onClick={(e) => e.stopPropagation()}>
+            {/* Sticky close button */}
+            <div className="flex justify-end p-4 flex-shrink-0">
               <button
                 onClick={handleCloseModal}
                 className="text-white text-3xl font-bold hover:text-purple-500"
@@ -77,8 +78,9 @@ const Work = () => {
               </button>
             </div>
 
-            <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
+            {/* Scrollable content */}
+            <div className="flex flex-col overflow-y-auto flex-1 min-h-0">
+              <div className="w-full flex justify-center bg-gray-900 px-4 flex-shrink-0">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}

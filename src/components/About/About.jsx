@@ -26,9 +26,8 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Full Stack Developer',
-                // 'App Developer',
-                'Student',
-                'Coder',
+                'Backend Developer',
+                'MERN Stack Developer',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -41,14 +40,14 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a Final-year B.Tech (IT) student with a background in Full Stack development. Skilled in building and 
-            optimizing server-side applications, with a strong foundation in programming, databases, and
-            problem-solving. Actively seeking opportunities to learn, grow, and contribute while developing into
-            a well-rounded software professional.
+            Results-driven developer experienced in building scalable applications, real-time systems, and SaaS
+            products with a strong focus on performance, security, and user experience. Skilled in AI-assisted
+            workflows and prompt engineering, delivering reliable, production-ready solutions through hands-on
+            software development experience.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1qRnSsh47V8S8XcyOhcb255c6ssTIWWNc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1d3huuzUJyZEQ3ZkXUe4qF6wf17x0z0aC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

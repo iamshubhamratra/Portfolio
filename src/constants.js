@@ -37,6 +37,8 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import bulkdoorLogo from './assets/company_logo/bulkdoor_logo.png';
+import writecreamLogo from './assets/company_logo/writecream_logo.svg';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
@@ -56,7 +58,8 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import yourOsManager from './assets/work_logo/YourOsManager.png';
-import taskMate from './assets/work_logo/taskMate.png'
+import taskMate from './assets/work_logo/taskMate.png';
+import keyframeLogo from './assets/work_logo/keyframe.png';
 
 
 export const SkillsInfo = [
@@ -78,112 +81,76 @@ export const SkillsInfo = [
     title: 'Skills',
     skills: [
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C++', logo: cppLogo },
       { name: 'TypeScript', logo: typescriptLogo },
-      // { name: 'HTML', logo: htmlLogo },
-      // { name: 'CSS', logo: cssLogo },
+      { name: 'Python', logo: pythonLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
       { name: 'React JS', logo: reactjsLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'MySQL', logo: mysqlLogo },
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
-      // { name: 'Springboot', logo: springbootLogo },
-      // { name: 'Firebase', logo: firebaseLogo },
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
     ],
   },
-  // {
-  //   title: 'Languages',
-  //   skills: [
-  //     // { name: 'C', logo: cLogo },
-  //     // { name: 'Java', logo: javaLogo },
-  //     // { name: 'C-Sharp', logo: csharpLogo },
-  //     { name: 'JavaScript', logo: javascriptLogo },
-  //   ],
-  // },
   {
     title: 'Tools',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      // { name: 'Netlify', logo: netlifyLogo },
-      // { name: 'Figma', logo: figmaLogo },
+      { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Compass', logo: mcLogo },
     ],
   },
 ];
 
 export const experiences = [
-  //   {
-  //     id: 0,
-  //     img: webverseLogo,
-  //     role: "Fullstack Developer",
-  //     company: "Webverse Digital",
-  //     date: "April 2024 - Present",
-  //     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "JavaScript",
-  //       "React JS",
-  //       "TypeScript",
-  //       "Node JS",
-  //       "Tailwind CSS",
-  //       "MongoDb",
-  //       "Redux",
-  //       " Next Js",
-  //     ],
-  //   }, 
-  //   {
-  //     id: 1,
-  //     img: agcLogo,
-  //     role: "Fullstack Engineer",
-  //     company: "Agumentik Group of Companies",
-  //     date: "July 2023 - March 2024",
-  //     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-  //     skills: [
-  //       "ReactJS",
-  //       "Redux",
-  //       "JavaScript",
-  //       "Tailwind CSS",
-  //       "HTML",
-  //       "CSS",
-  //       "SQL",
-  //     ],
-  //   },
-  //   {
-  //     id: 2,
-  //     img: newtonschoolLogo,
-  //     role: "Frontend Intern",
-  //     company: "Newton School",
-  //     date: "September 2021 - August 2022",
-  //     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "Javascript",
-  //       "Bootstrap",
-  //       "Figma",
-  //       "Material UI",
-  //     ],
-  //   },
+  {
+    id: 0,
+    img: writecreamLogo,
+    role: "Full Stack Developer",
+    company: "WriteCream",
+    date: "Mar 2026 - Present",
+    desc: "Developed and maintained full-stack SaaS features and tools using modern web technologies. Collaborated with teams to ship features and enhance user experience. Improved development workflows using Claude Code and Cursor for faster feature implementation.",
+    skills: [
+      "React JS",
+      "Node JS",
+      "JavaScript",
+      "TypeScript",
+      "MongoDB",
+      "Express JS",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    id: 1,
+    img: bulkdoorLogo,
+    role: "Backend Developer",
+    company: "Bulkdoor",
+    date: "Dec 2025 - Mar 2026",
+    desc: "Built scalable backend services and REST APIs for an e-commerce platform. Collaborated with teams to build features and support production releases. Implemented authentication, order management, and database operations with proper error handling.",
+    skills: [
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "REST APIs",
+      "JWT Authentication",
+      "JavaScript",
+    ],
+  },
 ];
 
 export const education = [
   {
     id: 0,
     img: ipuLogo,
-    school: "Dr. Akhilesh Das Gupta Institute of Professional Studies, Delhi",
-    date: "November 2022 - Present",
+    school: "Dr. Akhilesh Das Gupta Institute of Professional Studies (GGSIPU), Delhi",
+    date: "2022 - 2026",
     // grade: "7.81 CGPA",
-    desc: "I’m currently pursuing a B.Tech in Information Technology from Dr. Akhilesh Das Gupta Institute of Professional Studies, affiliated with Guru Gobind Singh Indraprastha University. I’m developing a strong foundation in coding, programming, databases, and problem-solving, with a keen interest in building efficient and scalable software solutions.",
-    degree: "Bachelor of Technology - B.Tech",
+    desc: "Completed B.Tech in Information Technology from Dr. Akhilesh Das Gupta Institute of Professional Studies, affiliated with Guru Gobind Singh Indraprastha University. Built a strong foundation in coding, programming, databases, and problem-solving, with hands-on experience building efficient and scalable software solutions.",
+    degree: "Bachelor of Technology - B.Tech (Information Technology)",
   },
   // {
   //   id: 1,
@@ -217,32 +184,32 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Your OS Manager",
+    title: "KEYFRAME",
     description:
-      "A modern, secure, and production-ready web-based file and folder management system built with the MERN stack (MongoDB, Express.js, React-inspired frontend, Node.js). This application allows authenticated users to create, organize, and manage folders and files through an intuitive and responsive web interface. Designed for scalability, security, and ease of use.",
-    image: yourOsManager,
-    tags: ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript", "Bootstrap 5"],
-    github: "https://github.com/iamshubhamratra/YourOsManager.git",
-    webapp: "https://yourosmanager.onrender.com/",
+      "An AI-powered video generation platform that converts prompts, websites, and reference content into fully animated videos with scripts, voiceovers, captions, and music. Built a multi-agent workflow using LangGraph and OpenRouter AI for storyboard generation, asset orchestration, website ingestion, and automated MP4 rendering.",
+    image: keyframeLogo,
+    tags: ["Node.js", "MongoDB", "Express.js", "React.js", "LangChain", "LangGraph", "Multer"],
+    github: "https://github.com/iamshubhamratra",
+    webapp: "#",
   },
   {
     id: 1,
     title: "Task Mate",
     description:
-      "TaskMate is a secure team collaboration platform built using React, Node.js, Express, and MongoDB, featuring OTP-based authentication, admin-controlled workflows, and planned real-time chat and video communication.",
+      "Designed and developed a role-based task workflow system with structured collaboration, role-based access control, and high data integrity (99.9%), supporting multiple users. Built RESTful APIs for task and team management with real-time status tracking, and integrated secure file uploads using Multer with proper validation and storage handling.",
     image: taskMate,
-    tags: [ "Node.js", "MongoDB", "Express","React JS", "HTML", "CSS", "JavaScript"],
+    tags: ["Node.js", "MongoDB", "Express.js", "React.js", "Postman", "Nodemailer", "Multer"],
     github: "https://github.com/iamshubhamratra/Taskmate-Backend-Server.git",
     webapp: "https://taskmate-frontend-server.vercel.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "Movie Recommendation App",
-  //   description:
-  //     "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-  //   image: movierecLogo,
-  //   tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-  //   github: "https://github.com/codingmastr/Movie-Recommendation-App",
-  //   webapp: "https://movie-recommendation-app-jet.vercel.app/",
-  // },
+  {
+    id: 2,
+    title: "Your OS Manager",
+    description:
+      "A modern, secure, and production-ready web-based file and folder management system built with the MERN stack. Allows authenticated users to create, organize, and manage folders and files through an intuitive and responsive web interface. Designed for scalability, security, and ease of use.",
+    image: yourOsManager,
+    tags: ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript", "Bootstrap 5"],
+    github: "https://github.com/iamshubhamratra/YourOsManager.git",
+    webapp: "https://yourosmanager.onrender.com/",
+  },
 ];  
