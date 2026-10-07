@@ -32,6 +32,15 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import dockerLogo from './assets/tech_logo/docker.svg';
+import redisLogo from './assets/tech_logo/redis.svg';
+import socketioLogo from './assets/tech_logo/socketio.svg';
+import awsLogo from './assets/tech_logo/aws.svg';
+import githubactionsLogo from './assets/tech_logo/githubactions.svg';
+import cursorLogo from './assets/tech_logo/cursor.svg';
+import claudeLogo from './assets/tech_logo/claude.svg';
+import cloudinaryLogo from './assets/tech_logo/cloudinary.svg';
+import sqlLogo from './assets/tech_logo/sql.svg';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -63,44 +72,53 @@ import keyframeLogo from './assets/work_logo/keyframe.png';
 
 
 export const SkillsInfo = [
-  // {
-  //   title: 'Frontend',
-  //   skills: [
-  //     // // { name: 'SASS', logo: sassLogo },
-  //     // { name: 'JavaScript', logo: javascriptLogo },
-  //     // // { name: 'Angular', logo: angularLogo },
-  //     // // { name: 'Redux', logo: reduxLogo },
-  //     // // { name: 'Next JS', logo: nextjsLogo }, 
-  //     // { name: 'Tailwind CSS', logo: tailwindcssLogo },
-  //     // // { name: 'GSAP', logo: gsapLogo },
-  //     // // { name: 'Material UI', logo: materialuiLogo },
-  //     // { name: 'Bootstrap', logo: bootstrapLogo },
-  //   ],
-  // },
   {
-    title: 'Skills',
+    title: 'Languages',
     skills: [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'SQL', logo: sqlLogo },
+      { name: 'C++', logo: cppLogo },
+      { name: 'HTML5', logo: htmlLogo },
+      { name: 'CSS3', logo: cssLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: 'Frameworks & Libraries',
+    skills: [
+      { name: 'React JS', logo: reactjsLogo },
+      { name: 'Node JS', logo: nodejsLogo },
+      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'Next JS', logo: nextjsLogo },
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Socket.IO', logo: socketioLogo },
+      { name: 'Redux', logo: reduxLogo },
+    ],
+  },
+  {
+    title: 'Databases & Cloud',
+    skills: [
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'Redis', logo: redisLogo },
+      { name: 'AWS', logo: awsLogo },
+      { name: 'Docker', logo: dockerLogo },
+    ],
+  },
+  {
+    title: 'Tools & Platforms',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
+      { name: 'GitHub Actions', logo: githubactionsLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Cursor', logo: cursorLogo },
+      { name: 'Claude Code', logo: claudeLogo },
+      { name: 'Cloudinary', logo: cloudinaryLogo },
       { name: 'Compass', logo: mcLogo },
     ],
   },
@@ -112,16 +130,26 @@ export const experiences = [
     img: writecreamLogo,
     role: "Full Stack Developer",
     company: "WriteCream",
+    location: "Delhi, India",
     date: "Mar 2026 - Present",
-    desc: "Developed and maintained full-stack SaaS features and tools using modern web technologies. Collaborated with teams to ship features and enhance user experience. Improved development workflows using Claude Code and Cursor for faster feature implementation.",
+    desc: [
+      "Built and shipped production-grade full-stack SaaS features across frontend, backend, and APIs, including the backend for an AI-powered video generation feature with its APIs and core processing workflows.",
+      "Proposed a template-based redesign of the video generation pipeline that cut per-video generation cost by ~20–25x (from $0.90 to $0.04 per video).",
+      "Built Manifest V3 Chrome extensions and WordPress plugins that bring the company’s AI writing tools directly into users’ browsers and websites, wiring up authentication and backend API integration.",
+      "Accelerated delivery using agentic AI-assisted workflows (Claude Code, Cursor) for coding and debugging, shipping features through Git-based collaboration, testing, and iterative releases.",
+    ],
     skills: [
       "React JS",
       "Node JS",
-      "JavaScript",
-      "TypeScript",
-      "MongoDB",
       "Express JS",
+      "TypeScript",
+      "JavaScript",
+      "MongoDB",
+      "REST APIs",
       "Tailwind CSS",
+      "Chrome Extensions",
+      "Cursor",
+      "Claude Code",
     ],
   },
   {
@@ -129,8 +157,14 @@ export const experiences = [
     img: bulkdoorLogo,
     role: "Backend Developer",
     company: "Bulkdoor",
-    date: "Dec 2025 - Mar 2026",
-    desc: "Built scalable backend services and REST APIs for an e-commerce platform. Collaborated with teams to build features and support production releases. Implemented authentication, order management, and database operations with proper error handling.",
+    location: "Delhi, India",
+    date: "Oct 2025 - Mar 2026",
+    desc: [
+      "Developed the backend for the Admin Panel using Node.js and Express.js, supporting core administrative workflows and operations.",
+      "Designed and integrated REST APIs to fetch, process, and serve database data to the Admin Panel, ensuring smooth frontend–backend communication.",
+      "Implemented cart and pricing APIs to manage cart items and calculate the final payable amount based on the stored product and cart data.",
+      "Worked with the team through Git-based workflows and code reviews, coordinating with frontend developers on API contracts to ship features into production.",
+    ],
     skills: [
       "Node JS",
       "Express JS",
@@ -138,6 +172,7 @@ export const experiences = [
       "REST APIs",
       "JWT Authentication",
       "JavaScript",
+      "Git",
     ],
   },
 ];

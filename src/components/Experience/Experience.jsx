@@ -59,7 +59,7 @@ const Experience = () => {
                           {experience.role}
                         </h3>
                         <h4 className="text-sm text-gray-300 truncate">
-                          {experience.company}
+                          {experience.company}{experience.location ? ` • ${experience.location}` : ""}
                         </h4>
                         <p className="text-xs text-gray-500 mt-0.5">
                           {experience.date}
@@ -68,9 +68,19 @@ const Experience = () => {
                     </div>
 
                     {/* Description */}
-                    <p className="mt-4 text-sm sm:text-base text-gray-400 leading-relaxed">
-                      {experience.desc}
-                    </p>
+                    {Array.isArray(experience.desc) ? (
+                      <ul className="mt-4 space-y-2 list-disc list-inside text-sm sm:text-base text-gray-300 leading-relaxed">
+                        {experience.desc.map((bullet, bulletIdx) => (
+                          <li key={bulletIdx} className="leading-relaxed">
+                            <span>{bullet}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="mt-4 text-sm sm:text-base text-gray-400 leading-relaxed">
+                        {experience.desc}
+                      </p>
+                    )}
 
                     {/* Skills */}
                     <div className="mt-4">
